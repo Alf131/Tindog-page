@@ -6,6 +6,7 @@ h1 {
     font-weight: 900;
     line-height: 1.5rem;
 }
-.row {
-    margin: 0;
+
+.container-fluid {
+    padding: 3% 15%;
 }
