@@ -26,7 +26,7 @@ p {
     color: #8f8f8f;
 }
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -61,6 +61,8 @@ p {
     transform: rotate(25deg);
     overflow: hidden;
     width: 60%;
+    position: absolute;
+    right: 30%;
 }
 
 /* Features */
@@ -68,6 +70,8 @@ p {
 #features {
     text-align: center;
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 .feature-box {
     padding: 5%;
@@ -105,4 +109,14 @@ p {
 .press-logos {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Procing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
 }
