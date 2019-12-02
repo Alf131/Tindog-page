@@ -120,7 +120,9 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
-
+#pricing-btn {
+    margin-top: 15%;
+}
 
 
 /* Call to action */
