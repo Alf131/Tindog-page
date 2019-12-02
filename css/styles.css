@@ -120,3 +120,41 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+
+
+/* Call to action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3% 20%;
+}
+.cta > h3 {
+    color: aliceblue;
+    font-family: "Montserrat";
+    font-size: 3.0rem;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 3% 20%;
+}
+footer i {
+    padding: 3% 1%;
+}
+
+@media (max-width: 1028px){
+    .phone {
+        position: static;
+        transform: none;
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+
