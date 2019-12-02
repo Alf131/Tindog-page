@@ -1,12 +1,18 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 #title {
-    background-color: #ff4c68;   
+    background-color: #ff4c68; 
+    text-align: left;  
+}
+
+h1, h2, h3 {
+    font-weight: 900;
 }
 h1 {
-    font-weight: 900;
+    
     line-height: 1.5em;
     font-size: 3.5rem;
     color: aliceblue;
@@ -14,12 +20,12 @@ h1 {
 h2 {
     font-family: "Montserrat";
     font-size: 3.0rem;
-    font-weight: 900;
+    
 }
 h3 {
     font-size: 1.5rem;
     font-family: "Montserrat";
-    font-weight: 900;
+    
     
 }
 p {
@@ -45,8 +51,9 @@ p {
     padding: 0 18px;
 }
 .nav-link {
-    font-family: "Montserrat-Light" ;
+    font-family: "Montserrat" ;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 /* Download buttons */
@@ -68,9 +75,7 @@ p {
 /* Features */
 
 #features {
-    text-align: center;
     padding: 7% 15%;
-    background-color: white;
     position: relative;
 }
 .feature-box {
@@ -85,25 +90,16 @@ p {
 }
 
 /* Testimonial section */
-
-#testimonials {
-    
-    text-align: center;
-    background-color: #ef8172;
-    color: aliceblue;
+  
 }
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
-.carousel-item {
-    padding: 7% 15%;
-}
+
 /*    Press section */
 #press {
-    background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-logos {
@@ -115,7 +111,6 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 .pricing-column {
     padding: 3% 2%;
@@ -128,27 +123,33 @@ p {
 /* Call to action */
 
 #cta {
-    background-color: #ff4c68;
-    text-align: center;
     padding: 3% 20%;
 }
 .cta > h3 {
     color: aliceblue;
     font-family: "Montserrat";
     font-size: 3.0rem;
+    line-height: 1.5em;
 }
 
 /* Footer */
 
 #footer {
-    text-align: center;
-    background-color: #fff;
     padding: 3% 20%;
 }
 footer i {
     padding: 3% 1%;
 }
 
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {
+    background-color: #fff;
+}
 @media (max-width: 1028px){
     .phone {
         position: static;
